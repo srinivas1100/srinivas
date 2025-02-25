@@ -1,0 +1,125 @@
+---
+---
+
+<section id="about" class="about relative py-20">
+  <div class="absolute inset-0 bg-[#0a192f]">
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(59,130,246,0.05),transparent_70%)]"></div>
+  </div>
+  
+  <div class="about-container relative z-10">
+    <h2 class="text-4xl font-bold text-center mb-12">
+      About <span class="bg-gradient-to-r from-[#3B82F6] to-[#60A5FA] text-transparent bg-clip-text">Me</span>
+    </h2>
+    
+    <div class="content">
+      <div class="profile-section" data-aos="fade-right">
+        <div class="profile-image-container">
+          <div class="profile-ring"></div>
+          <div class="profile-image">
+            <img 
+              src="https://raw.githubusercontent.com/srinivas1100/cv/refs/heads/main/1667039053845.jpeg" 
+              alt="Profile" 
+              class="rounded-full" 
+            />
+          </div>
+        </div>
+        <h3 class="text-[#3B82F6] text-xl font-semibold mt-6">Full Stack & Flutter Developer</h3>
+      </div>
+      
+      <div class="bio" data-aos="fade-left">
+        <p class="text-gray-400 text-xl leading-relaxed max-w-3xl">
+          Passionate <span class="text-[#3B82F6] font-semibold">Full-Stack</span> and 
+          <span class="text-[#60A5FA] font-semibold">Hybrid Mobile Application Developer</span> with 
+          <span class="text-white font-semibold">3+ years</span> of experience building 
+          high-performance Android and iOS applications. I specialize in 
+          <span class="text-[#3B82F6] font-semibold">Flutter</span>, 
+          <span class="text-[#60A5FA] font-semibold">iOS (Swift)</span>, and 
+          <span class="text-[#3B82F6] font-semibold">Android</span> development, with hands-on expertise in 
+          <span class="text-[#60A5FA] font-semibold">Monolithic</span> and 
+          <span class="text-[#60A5FA] font-semibold">Microservices</span> architecture. 
+          My focus is on integrating innovative AI solutions powered by 
+          <span class="text-[#3B82F6] font-semibold">OpenAI</span> and 
+          <span class="text-[#3B82F6] font-semibold">LLMs</span> to create seamless user experiences.
+        </p>
+        
+        <!-- <a href="#contact" class="read-more inline-block mt-8 px-6 py-3 bg-transparent border border-[#3B82F6] text-[#3B82F6] rounded-md hover:bg-[#3B82F6]/10 hover:scale-105 hover:shadow-[0_0_20px_rgba(59,130,246,0.3)] transition-all duration-300">
+          Read More
+        </a> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    gap: 4rem;
+    align-items: start;
+  }
+
+  .profile-section {
+    text-align: center;
+  }
+
+  .profile-image-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .profile-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    border: 2px solid #3B82F6;
+  }
+
+  .profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .profile-ring {
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    border-radius: 50%;
+    border: 2px solid #3B82F6;
+    animation: rotate 8s linear infinite;
+  }
+
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .content {
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+
+    .profile-image-container {
+      width: 150px;
+      height: 150px;
+    }
+  }
+</style>

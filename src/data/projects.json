@@ -1,0 +1,216 @@
+[
+  {
+    "title": "Guidel: City & Travel Guide",
+    "description": "Personal audio guide application bringing art, history, and culture to life through immersive audio stories, interactive cultural maps, and scan-and-listen capabilities.",
+    "technologies": [
+      "Flutter",
+      "Google Maps API",
+      "GPT-4",
+      "Firebase"
+    ],
+    "links": {
+      "website": "https://www.guidel.co",
+      "appStore": "https://apps.apple.com/app/id6443568370",
+      "playStore": "https://play.google.com/store/apps/details?id=com.cityguide.guidel"
+    },
+    "image": "/icons/guidel/feature.png"
+  },
+  {
+    "title": "ShiftBOOKD",
+    "description": "An innovative appointment scheduling platform for beauty and hair care professionals, streamlining bookings and business growth with appointment management, payment acceptance, and service promotion tools.",
+    "technologies": [
+      "iOS (Swift)",
+      "UIKit",
+      "Core Data",
+      "Alamofire"
+    ],
+    "links": {
+      "website": "https://www.shiftbookd.com/",
+      "appStore": "https://apps.apple.com/us/app/shiftbookd/id1507908655"
+    },
+    "image": "/icons/shiftbookd/feature.png"
+  },
+  {
+    "title": "ShiftBOOKD Influencer",
+    "description": "A web platform for artists, designers, and writers to showcase portfolios, collaborate, and network with peers, promoting career growth and creative opportunities.",
+    "technologies": [
+      "Flutter Web",
+      "Dart",
+      "RESTful APIs"
+    ],
+    "links": {
+      "website": "https://www.thecreativesociety.tech/"
+    },
+    "image": "/icons/shiftbookd/feature.png"
+  },
+  {
+    "title": "Sit Back & Relax",
+    "description": "A service booking app connecting users with various service providers (cooking, baby care, etc.) featuring real-time chat, multi-login, and instant notifications.",
+    "technologies": [
+      "Flutter",
+      "Firebase Cloud Messaging",
+      "Firebase Cloud Storage"
+    ],
+    "links": {
+      "testFlight": "https://testflight.apple.com/join/avJKzADq"
+    },
+    "image": "/icons/sitback/feature.png"
+  },
+  {
+    "title": "BEATBoXX",
+    "description": "An audio HIIT workout system syncing movements with beats for fitness, martial arts, and boxing workouts, delivering engaging and effective training.",
+    "technologies": [
+      "Flutter",
+      "Firebase",
+      "Dart",
+      "RESTful APIs"
+    ],
+    "links": {
+      "website": "https://www.beatboxxapp.com/",
+      "appStore": "https://apps.apple.com/us/app/beatboxx/id1507908655",
+      "playStore": "https://play.google.com/store/apps/details?id=com.beatboxx"
+    },
+    "image": "/icons/beatboxx/feature.png"
+  },
+  {
+    "title": "Easy Chef Admin Application",
+    "description": "Admin platform for managing user-submitted recipes using OpenAI GPT for content review and DALL·E for generating recipe images, with integrated web scraping.",
+    "technologies": [
+      "Flutter",
+      "OpenAI GPT",
+      "DALL·E",
+      "Web Scraping"
+    ],
+    "links": {},
+    "image": "/icons/easychef/feature.png"
+  },
+  {
+    "title": "Groupia Event Planner App",
+    "description": "Group travel planning app with itinerary booking, payment management, destination guides, and interactive features like 'Spin the Wheel' and to-do lists.",
+    "technologies": [
+      "Flutter",
+      "Firebase",
+      "Dart",
+      "Firebase Functions"
+    ],
+    "links": {
+      "website": "https://www.groupia.com/",
+      "appStore": "https://apps.apple.com/gb/app/groupia-event-planner-app/id1659333853",
+      "playStore": "https://play.google.com/store/apps/details?id=com.app.groupia"
+    },
+    "image": "/icons/groupia/feature.png"
+  },
+  {
+    "title": "OnSite Event Planning App",
+    "description": "Event planning app with event scheduling, task assignment, attendee management, and offline functionality through local caching.",
+    "technologies": [
+      "Flutter",
+      "Third-Party APIs",
+      "Local Storage"
+    ],
+    "links": {},
+    "image": "/icons/onsite/feature.png"
+  },
+  {
+    "title": "GatherUs Application",
+    "description": "A social decision-making app for dining and entertainment, integrating Google Maps for venue discovery with swipe-to-vote group decisions.",
+    "technologies": [
+      "Flutter",
+      "Google Maps API",
+      "Third-Party APIs",
+      "Local Storage"
+    ],
+    "links": {},
+    "image": "/icons/gatherus/feature.png"
+  },
+  {
+    "title": "Wildverse: Social Media for Pets, Animals, and Nature",
+    "description": "A global social media app for pet lovers and nature enthusiasts to share photos, videos, and connect with communities and NGOs.",
+    "technologies": [
+      "iOS (Swift)",
+      "Storyboards",
+      "Third-Party APIs"
+    ],
+    "links": {
+      "website": "https://www.wildverseapp.com/",
+      "appStore": "https://apps.apple.com/in/app/wildverse/id6449187000",
+      "playStore": "https://play.google.com/store/apps/details?id=com.wildverse.app"
+    },
+    "image": "/icons/wildverse/feature.png"
+  },
+  {
+    "title": "Evexia Health Monitoring Application",
+    "description": "Comprehensive health monitoring app with interactive charts for tracking heart rate, activity, and wellness metrics, offering subscription-based premium insights.",
+    "technologies": [
+      "Flutter",
+      "In-App Subscriptions",
+      "Responsive Charts",
+      "Push Notifications"
+    ],
+    "links": {},
+    "image": "/icons/evexia/feature.png"
+  },
+  {
+    "title": "Dr. Next | دکترنکست",
+    "description": "Comprehensive health application for online, telephone, and virtual doctor consultations, enabling users to book appointments with specialists and manage healthcare efficiently.",
+    "technologies": [
+      "Flutter",
+      "Backend Services",
+      "Real-Time Notifications",
+      "API Integration"
+    ],
+    "links": {
+      "appStore": "https://apps.apple.com/us/app/dr-next/id1636091132",
+      "playStore": "https://play.google.com/store/apps/details?id=ir.besina.app"
+    },
+    "image": "/icons/drnext/feature.png"
+  },
+  {
+    "title": "Dopoxy: Your Emotional Support",
+    "description": "Dopoxy is a one-on-one video calling application designed to provide private emotional support. Users can connect anonymously with compassionate individuals, known as Dopoxy Angels, through chat, photos, videos, and audio/video calls.",
+    "technologies": [
+      "Flutter",
+      "Firebase",
+      "WebRTC",
+      "Dart"
+    ],
+    "links": {
+      "website": "https://www.dopoxy.com/",
+      "appStore": "https://apps.apple.com/app/id6443621736",
+      "playStore": "https://play.google.com/store/apps/details?id=com.flutter.dopoxy"
+    },
+    "image": "/icons/dopoxy/feature.png"
+  },
+  {
+    "title": "Richie App",
+    "description": "Richie App blends seasoned trading expertise with cutting-edge technology to transform your financial journey. It offers practical and realistic content, guiding users from intraday to positional strategies.",
+    "technologies": [
+      "iOS (Swift)",
+      "Android (Kotlin)",
+      "Firebase",
+      "RESTful APIs"
+    ],
+    "links": {
+      "website": "https://www.richieapp.com/",
+      "appStore": "https://apps.apple.com/in/app/richie-app/id1659006578",
+      "playStore": "https://play.google.com/store/apps/details?id=com.chasealpha.richie"
+    },
+    "image": "/icons/richie/feature.png"
+  },
+  {
+    "title": "Home Automation",
+    "description": "Home Automation application built with Flutter to electronically control devices using the application, providing seamless integration and user-friendly interface.",
+    "technologies": [
+      "Flutter",
+      "Firebase",
+      "IoT",
+      "RESTful APIs"
+    ],
+    "links": {
+      "website": "https://www.homeautomationapp.com/",
+      "appStore": "https://apps.apple.com/in/app/home-automation/id1659006578",
+      "playStore": "https://play.google.com/store/apps/details?id=com.homeautomation.app"
+    },
+    "image": "/icons/automation/feature.png"
+  }
+]

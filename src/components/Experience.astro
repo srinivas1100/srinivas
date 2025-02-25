@@ -1,0 +1,55 @@
+---
+interface Experience {
+  company: string;
+  position: string;
+  period: string;
+  description: string;
+}
+
+const experiences: Experience[] = [
+  {
+    company: "Appknit",
+    position: "Senior Flutter & Native iOS(Swift) Developer",
+    period: "2022 - Present",
+    description: "• Developed 15+ cross-platform apps using Flutter\n• Optimized native iOS apps with Swift\n• Integrated Firebase, Agora SDK, and Stripe\n• Built AI-driven features with OpenAI GPT and DALL·E\n• Delivered subscription-based apps with auto-renewable purchases"
+  },
+  {
+    company: "CouldNext Tech Private",
+    position: "Flutter & MERN Stack Developer",
+    period: "2021 - 2022",
+    description: "• Developed test-driven, scalable applications\n• Built interactive dashboards and user management systems\n• Delivered high-quality, large-scale projects with frontend and backend expertise"
+  },
+  {
+    company: "Unio Labs Private Limited",
+    position: "Flutter Intern",
+    period: "2021 (6 Months)",
+    description: "• Gained hands-on experience in developing responsive user interfaces using Flutter\n• Integrated backend APIs for data retrieval and communication\n• Contributed to testing and debugging Flutter applications to ensure high performance and functionality\n• Collaborated with senior developers to enhance coding skills and understand best practices in mobile application development\n• Assisted in implementing real-time feedback features for mobile applications"
+  }
+];
+---
+
+<section id="experience" class="relative min-h-screen flex items-center pt-20 pb-16 px-6 bg-gradient-to-b from-[#0B1221] to-[#0a192f]">
+  <div class="absolute inset-0 overflow-hidden">
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(59,130,246,0.1),transparent_50%)]"></div>
+  </div>
+  
+  <div class="container mx-auto max-w-4xl relative z-10">
+    <h2 class="text-5xl font-bold text-center mb-12 bg-gradient-to-r from-[#3B82F6] to-[#60A5FA] text-transparent bg-clip-text">
+      Experience
+    </h2>
+    <div class="relative">
+      <div class="absolute left-4 top-0 h-full w-0.5 bg-[#3B82F6]/30"></div>
+      {experiences.map(exp => (
+        <div class="relative pl-12 pb-12 last:pb-0" data-aos="fade-up">
+          <div class="absolute left-0 top-2 w-8 h-8 bg-[#0B1221] border-2 border-[#3B82F6] rounded-full"></div>
+          <div class="bg-[#0B1221] rounded-lg p-6 border border-[#3B82F6]/50 hover:border-[#3B82F6] transition-all duration-300 shadow-lg">
+            <h3 class="text-2xl font-bold mb-2 bg-gradient-to-r from-[#3B82F6] to-[#60A5FA] text-transparent bg-clip-text">{exp.position}</h3>
+            <h4 class="text-xl text-[#3B82F6] mb-2">{exp.company}</h4>
+            <p class="text-gray-400 mb-4">{exp.period}</p>
+            <p class="text-gray-300 whitespace-pre-line">{exp.description}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

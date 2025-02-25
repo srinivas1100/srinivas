@@ -1,0 +1,1417 @@
+[
+    {
+        "title": "App Development",
+        "skills": [
+            {
+                "name": "Flutter",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
+                "color": "text-white-400",
+                "details": "Extensive experience in developing high-performance, cross-platform mobile applications using Flutter. Proficient in implementing state management solutions like Provider, Riverpod, and Bloc. Skilled in writing clean, maintainable Dart code, integrating REST APIs, Firebase, and animations to enhance user experience.",
+                "longDescription": [
+                    {
+                        "title": "Core Flutter Skills",
+                        "points": [
+                            "Dart Programming Language",
+                            "Flutter Widgets (Stateless & Stateful)",
+                            "Flutter Architecture (MVVM, Clean Architecture, GetX, Riverpod, Provider, BLoC)",
+                            "Custom UI Design & Animations",
+                            "Navigation & Routing (GoRouter, Named Routes)",
+                            "State Management (GetX, Riverpod, Provider, BLoC, Redux)",
+                            "Forms, Validation & Input Handling",
+                            "Localization & Multi-language Support",
+                            "Flutter Web, Mobile & Desktop Development",
+                            "Platform Channels for Native Code Integration"
+                        ]
+                    },
+                    {
+                        "title": "Backend & API Integration",
+                        "points": [
+                            "RESTful API Integration",
+                            "GraphQL API Integration",
+                            "WebSocket Implementation",
+                            "Firebase (Firestore, Realtime Database, Authentication, Cloud Functions, Push Notifications)",
+                            "Supabase Integration",
+                            "Authentication (Google, Facebook, Apple, OTP, Email/Password)",
+                            "Secure API Calls & Data Encryption"
+                        ]
+                    },
+                    {
+                        "title": "Database & Storage",
+                        "points": [
+                            "SQLite (sqflite package)",
+                            "Hive Database",
+                            "Shared Preferences & GetStorage",
+                            "Firebase Firestore & Realtime Database",
+                            "Local File Storage & Cache Handling"
+                        ]
+                    },
+                    {
+                        "title": "Animations & UI Enhancements",
+                        "points": [
+                            "Implicit & Explicit Animations",
+                            "Custom Animated Widgets",
+                            "Lottie Animations",
+                            "Hero Animations",
+                            "AnimatedBuilder & AnimatedContainer",
+                            "Rive Integration for Advanced Animations"
+                        ]
+                    },
+                    {
+                        "title": "Performance Optimization & Debugging",
+                        "points": [
+                            "Code Optimization & Lazy Loading",
+                            "Flutter DevTools & Debugging",
+                            "Profiling & Performance Monitoring",
+                            "Effective Use of Isolates & Compute",
+                            "Memory Management & Garbage Collection",
+                            "Handling Network & API Latency Efficiently"
+                        ]
+                    },
+                    {
+                        "title": "Testing & Quality Assurance",
+                        "points": [
+                            "Unit Testing",
+                            "Widget Testing",
+                            "Integration Testing",
+                            "Golden Testing for UI Consistency",
+                            "Mocking & Dependency Injection for Tests",
+                            "Automated UI Testing (Flutter Driver, Integration Tests)",
+                            "Continuous Testing in CI/CD Pipelines",
+                            "Performance & Stress Testing",
+                            "Test-Driven Development (TDD) Practices"
+                        ]
+                    },
+                    {
+                        "title": "AI & ML Integration",
+                        "points": [
+                            "OpenAI GPT & DALL·E Integration",
+                            "TensorFlow Lite & ML Kit",
+                            "AI-Powered Chatbots & Voice Assistants",
+                            "AI-Driven Image & Text Recognition"
+                        ]
+                    },
+                    {
+                        "title": "Third-Party Packages & SDKs",
+                        "points": [
+                            "Payment Gateways (Stripe, Razorpay, PayPal, Apple Pay, Google Pay)",
+                            "Video & Audio Streaming (Agora, Twilio, WebRTC, FFMPEG)",
+                            "Maps & Location Services (Google Maps, MapBox, Geolocator)",
+                            "Push Notifications (Firebase, OneSignal, Local Notifications)",
+                            "Barcode & QR Code Scanning",
+                            "Social Media Authentication & Sharing"
+                        ]
+                    },
+                    {
+                        "title": "Advanced Flutter Topics",
+                        "points": [
+                            "Custom Render Objects & Native Platform Channels",
+                            "Isolates, Background Services & Foreground Tasks",
+                            "Dynamic Theming & Adaptive UI",
+                            "Modular App Development",
+                            "Plugin & Package Development",
+                            "Custom Gesture Recognition & Touch Events"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Swift",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swift/swift-original.svg",
+                "color": "text-orange-400",
+                "details": "Proficient in Swift for developing native iOS applications with a focus on performance, scalability, and best practices. Experience with SwiftUI, UIKit, CoreData, and integrating third-party SDKs like Firebase, Agora, and Stripe.",
+                "longDescription": [
+                    {
+                        "title": "Core iOS Development Skills",
+                        "points": [
+                            "Swift Programming Language",
+                            "SwiftUI & UIKit",
+                            "MVVM & Clean Architecture",
+                            "Core Data & SQLite",
+                            "Networking with URLSession & Alamofire",
+                            "Push Notifications (Firebase & APNs)",
+                            "Auto Layout & Constraints",
+                            "Storyboards & Programmatic UI",
+                            "Apple HealthKit & CoreML Integration"
+                        ]
+                    },
+                    {
+                        "title": "Backend & API Integration",
+                        "points": [
+                            "RESTful API Integration",
+                            "GraphQL API Integration",
+                            "WebSocket Implementation",
+                            "Firebase (Firestore, Realtime Database, Authentication, Cloud Functions, Push Notifications)",
+                            "Authentication (Google, Facebook, Apple, OTP, Email/Password)",
+                            "Secure API Calls & Data Encryption"
+                        ]
+                    },
+                    {
+                        "title": "Database & Storage",
+                        "points": [
+                            "Core Data & SQLite",
+                            "UserDefaults & Keychain",
+                            "Firebase Firestore & Realtime Database",
+                            "Local File Storage & Cache Handling"
+                        ]
+                    },
+                    {
+                        "title": "UI & Animations",
+                        "points": [
+                            "SwiftUI Animations & Transitions",
+                            "Custom UIKit Animations",
+                            "Lottie Animations",
+                            "Gesture Recognizers & Touch Events",
+                            "Dynamic & Adaptive UI",
+                            "Dark Mode & Custom Themes",
+                            "Advanced Auto Layout Techniques"
+                        ]
+                    },
+                    {
+                        "title": "Performance Optimization & Debugging",
+                        "points": [
+                            "Code Optimization & Lazy Loading",
+                            "Instruments & Debugging",
+                            "Profiling & Performance Monitoring",
+                            "Effective Use of Background Threads",
+                            "Memory Management & ARC",
+                            "Handling Network & API Latency Efficiently"
+                        ]
+                    },
+                    {
+                        "title": "Testing & Quality Assurance",
+                        "points": [
+                            "Unit Testing",
+                            "UI Testing with XCTest & XCUITest",
+                            "Integration Testing",
+                            "Automated UI Testing",
+                            "Test-Driven Development (TDD) Practices",
+                            "Mocking & Dependency Injection for Tests",
+                            "Performance & Stress Testing"
+                        ]
+                    },
+                    {
+                        "title": "AI & ML Integration",
+                        "points": [
+                            "Core ML & Vision Framework",
+                            "TensorFlow Lite & ML Kit",
+                            "AI-Powered Chatbots & Voice Assistants",
+                            "AI-Driven Image & Text Recognition"
+                        ]
+                    },
+                    {
+                        "title": "Third-Party SDKs & Services",
+                        "points": [
+                            "Payment Gateways (Stripe, Apple Pay, PayPal)",
+                            "Video & Audio Streaming (Agora, Twilio, WebRTC, AVFoundation)",
+                            "Maps & Location Services (Apple Maps, MapBox, CoreLocation)",
+                            "Push Notifications (Firebase, OneSignal, APNs)",
+                            "Barcode & QR Code Scanning",
+                            "Social Media Authentication & Sharing"
+                        ]
+                    },
+                    {
+                        "title": "Advanced iOS Development Topics",
+                        "points": [
+                            "Custom Render Objects & Metal API",
+                            "Background Tasks & Foreground Services",
+                            "Dynamic Theming & Adaptive UI",
+                            "Modular App Development",
+                            "Custom Gesture Recognition & Touch Events"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Dart",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg",
+                "color": "text-blue-500",
+                "details": "Expertise in Dart programming for Flutter applications, utilizing its strong typing, asynchronous programming capabilities, and efficient memory management.",
+                "longDescription": [
+                    {
+                        "title": "Core Dart Skills",
+                        "points": [
+                            "Strongly Typed Programming Language",
+                            "Object-Oriented Programming (OOP) Principles",
+                            "Asynchronous Programming with async/await & Future API",
+                            "Isolates for Parallel Computing",
+                            "Error Handling & Exception Management",
+                            "Functional Programming Features in Dart"
+                        ]
+                    },
+                    {
+                        "title": "Dart Data Structures & Collections",
+                        "points": [
+                            "Lists, Sets, and Maps Usage & Optimization",
+                            "Dart Generics & Type Safety",
+                            "Deep Understanding of Iterators & Streams",
+                            "Collection Manipulation & Transformation Techniques"
+                        ]
+                    },
+                    {
+                        "title": "Performance Optimization & Debugging",
+                        "points": [
+                            "Memory Management & Garbage Collection",
+                            "Dart DevTools for Profiling & Debugging",
+                            "Lazy Loading & Code Splitting",
+                            "Effective Use of Compute & Isolates"
+                        ]
+                    },
+                    {
+                        "title": "Backend & API Integration with Dart",
+                        "points": [
+                            "Building RESTful APIs with Dart",
+                            "GraphQL API Consumption",
+                            "WebSockets for Real-Time Data",
+                            "Dart Shelf for Server-Side Development",
+                            "HTTP Requests & JSON Parsing"
+                        ]
+                    },
+                    {
+                        "title": "Testing & Quality Assurance in Dart",
+                        "points": [
+                            "Unit Testing in Dart",
+                            "Widget Testing for Flutter Applications",
+                            "Mocking & Dependency Injection",
+                            "Golden Tests for UI Consistency",
+                            "Automated Testing with CI/CD Pipelines"
+                        ]
+                    },
+                    {
+                        "title": "Advanced Dart Concepts",
+                        "points": [
+                            "Mixins & Extensions for Code Reusability",
+                            "Dart Metaprogramming & Reflection",
+                            "Custom Annotations & Code Generation",
+                            "Dart FFI (Foreign Function Interface) for Native Code Integration"
+                        ]
+                    },
+                    {
+                        "title": "Dart for Web & Desktop Applications",
+                        "points": [
+                            "Dart for Flutter Web Development",
+                            "Building Progressive Web Apps (PWAs) with Dart",
+                            "Dart Native for Desktop Application Development",
+                            "Interfacing with JavaScript using Dart"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Web Development",
+        "skills": [
+            {
+                "name": "React",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+                "color": "text-blue-500",
+                "details": "Experienced in building dynamic, responsive web applications using React. Skilled in state management libraries like Redux and Context API.",
+                "longDescription": [
+                    {
+                        "title": "Core React Development Skills",
+                        "points": [
+                            "JavaScript (ES6+)",
+                            "React.js & React Hooks",
+                            "Next.js Framework for Server-Side Rendering (SSR) & Static Site Generation (SSG)",
+                            "Redux, Context API & Recoil for State Management",
+                            "Component-Based Architecture & Reusability",
+                            "React Router for Client-Side Navigation",
+                            "Error Handling & Debugging in React",
+                            "React Performance Optimization (Code Splitting, Lazy Loading)"
+                        ]
+                    },
+                    {
+                        "title": "Frontend Development & UI Libraries",
+                        "points": [
+                            "HTML5, CSS3, SASS, SCSS",
+                            "Tailwind CSS, Bootstrap, Material-UI, Ant Design",
+                            "Styled Components & Emotion for CSS-in-JS",
+                            "Responsive & Adaptive Design Implementation",
+                            "Dark Mode & Theme Customization"
+                        ]
+                    },
+                    {
+                        "title": "Backend & API Integration",
+                        "points": [
+                            "RESTful API & GraphQL API Integration",
+                            "Fetching Data using Axios & Fetch API",
+                            "WebSockets for Real-Time Data Handling",
+                            "Firebase Integration (Firestore, Authentication, Realtime Database)",
+                            "Authentication with OAuth, JWT, Firebase Auth",
+                            "Secure API Calls & Data Encryption"
+                        ]
+                    },
+                    {
+                        "title": "Database & Storage",
+                        "points": [
+                            "Firebase Firestore & Realtime Database",
+                            "LocalStorage, SessionStorage & IndexedDB",
+                            "Caching Strategies & Performance Optimization"
+                        ]
+                    },
+                    {
+                        "title": "Testing & Quality Assurance",
+                        "points": [
+                            "Unit Testing with Jest & React Testing Library",
+                            "Integration Testing for Components & API Calls",
+                            "End-to-End Testing with Cypress & Playwright",
+                            "Mocking & Test Coverage Analysis",
+                            "Continuous Testing in CI/CD Pipelines"
+                        ]
+                    },
+                    {
+                        "title": "React Native Development",
+                        "points": [
+                            "React Native for Cross-Platform Mobile Development",
+                            "Expo & React Native CLI",
+                            "Navigation with React Navigation",
+                            "State Management (Redux, Recoil, MobX)",
+                            "Push Notifications & Background Tasks",
+                            "Native Modules & Bridges for Custom Integrations"
+                        ]
+                    },
+                    {
+                        "title": "Third-Party Packages & SDKs",
+                        "points": [
+                            "Payment Gateway Integration (Stripe, PayPal, Razorpay)",
+                            "Video & Audio Streaming (Agora, WebRTC, FFMPEG)",
+                            "Maps & Location Services (Google Maps, MapBox)",
+                            "Social Media Authentication & Sharing Features",
+                            "Form Validation (Formik, Yup)"
+                        ]
+                    },
+                    {
+                        "title": "Advanced React Development Topics",
+                        "points": [
+                            "Custom Hooks & Higher-Order Components (HOCs)",
+                            "Server-Side Components & Edge Functions",
+                            "Micro-Frontend Architecture Implementation",
+                            "WebAssembly & Performance Optimization Techniques",
+                            "GraphQL with Apollo Client"
+                        ]
+                    },
+                    {
+                        "title": "Additional Skills",
+                        "points": [
+                            "UI/UX Wireframing (Figma, Adobe XD, Sketch)",
+                            "App Monetization Strategies (Ads, Subscriptions, In-App Purchases)",
+                            "Real-Time Chat & Messaging App Development",
+                            "E-commerce & Marketplace Web Application Development"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "JavaScript",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+                "color": "text-yellow-400",
+                "details": "Strong understanding of JavaScript ES6+ for building modern web applications, including asynchronous programming and functional programming techniques.",
+                "longDescription": [
+                    {
+                        "title": "Core JavaScript Skills",
+                        "points": [
+                            "ES6+ Features (let, const, arrow functions, template literals)",
+                            "Closures, Hoisting & Execution Context",
+                            "Prototypal Inheritance & Object-Oriented JavaScript",
+                            "Asynchronous JavaScript (Callbacks, Promises, async/await)",
+                            "Event Loop & Concurrency Model",
+                            "JavaScript Modules (CommonJS, ES Modules)"
+                        ]
+                    },
+                    {
+                        "title": "Data Structures & Algorithms in JavaScript",
+                        "points": [
+                            "Arrays, Objects & Sets/Maps",
+                            "Linked Lists, Stacks & Queues",
+                            "Sorting & Searching Algorithms",
+                            "Big-O Complexity & Performance Considerations"
+                        ]
+                    },
+                    {
+                        "title": "DOM Manipulation & Event Handling",
+                        "points": [
+                            "Vanilla JS DOM Selection & Manipulation",
+                            "Event Delegation & Bubbling",
+                            "Efficient Event Handling & Performance",
+                            "Intersection Observer API for Lazy Loading"
+                        ]
+                    },
+                    {
+                        "title": "Asynchronous JavaScript & API Integration",
+                        "points": [
+                            "Working with Fetch API & Axios",
+                            "Handling JSON Data & Parsing",
+                            "WebSockets & Real-Time Communication",
+                            "Error Handling & Retry Strategies in API Calls"
+                        ]
+                    },
+                    {
+                        "title": "JavaScript Performance Optimization",
+                        "points": [
+                            "Debouncing & Throttling for Performance",
+                            "Memory Optimization & Garbage Collection",
+                            "Code Splitting & Lazy Loading",
+                            "Efficient DOM Manipulation Techniques"
+                        ]
+                    },
+                    {
+                        "title": "Security in JavaScript Applications",
+                        "points": [
+                            "Cross-Site Scripting (XSS) Prevention",
+                            "Cross-Site Request Forgery (CSRF) Handling",
+                            "Content Security Policy (CSP) Implementation",
+                            "Secure Data Handling & Encryption"
+                        ]
+                    },
+                    {
+                        "title": "Testing & Debugging in JavaScript",
+                        "points": [
+                            "Unit Testing with Jest & Mocha",
+                            "Integration Testing & API Mocking",
+                            "Debugging with Chrome DevTools",
+                            "End-to-End Testing with Cypress & Playwright"
+                        ]
+                    },
+                    {
+                        "title": "Modern JavaScript Frameworks & Libraries",
+                        "points": [
+                            "React.js & Vue.js for UI Development",
+                            "State Management with Redux, Recoil, and Context API",
+                            "Server-Side Rendering (SSR) with Next.js",
+                            "Node.js for Backend Development"
+                        ]
+                    },
+                    {
+                        "title": "Additional Skills",
+                        "points": [
+                            "Progressive Web Apps (PWA) with JavaScript",
+                            "Building Chrome Extensions with JavaScript",
+                            "Microservices & Serverless Architecture using JavaScript",
+                            "GraphQL with Apollo Client & Express.js"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "TypeScript",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+                "color": "text-blue-600",
+                "details": "Proficient in TypeScript for writing scalable and maintainable web applications.",
+                "longDescription": [
+                    {
+                        "title": "Core TypeScript Skills",
+                        "points": [
+                            "Static Typing & Type Safety",
+                            "Interfaces, Types, & Enums",
+                            "Generics for Reusability",
+                            "Type Assertions & Guards",
+                            "Strict Mode & Compiler Options",
+                            "Type Inference & Advanced Typing Patterns"
+                        ]
+                    },
+                    {
+                        "title": "Object-Oriented Programming in TypeScript",
+                        "points": [
+                            "Classes & Object-Oriented Principles",
+                            "Inheritance & Access Modifiers",
+                            "Abstract Classes & Interfaces",
+                            "Dependency Injection & Design Patterns",
+                            "Encapsulation & Polymorphism"
+                        ]
+                    },
+                    {
+                        "title": "Asynchronous Programming & API Handling",
+                        "points": [
+                            "Promises & Async/Await",
+                            "Working with Fetch API & Axios",
+                            "Handling WebSockets & Real-Time Data",
+                            "Error Handling & Retry Strategies",
+                            "Parallel & Sequential Execution"
+                        ]
+                    },
+                    {
+                        "title": "Advanced TypeScript Features",
+                        "points": [
+                            "Mapped Types & Conditional Types",
+                            "Utility Types (Partial, Pick, Record, etc.)",
+                            "Decorators & Meta-Programming",
+                            "Module Augmentation & Declaration Merging",
+                            "Custom Type Guards & Advanced Union Types"
+                        ]
+                    },
+                    {
+                        "title": "Testing & Debugging in TypeScript",
+                        "points": [
+                            "Unit Testing with Jest & Mocha",
+                            "Integration Testing & API Mocking",
+                            "Static Analysis & Linting with ESLint & TSLint",
+                            "TypeScript Debugging in VS Code",
+                            "End-to-End Testing with Cypress & Playwright"
+                        ]
+                    },
+                    {
+                        "title": "TypeScript in Modern Web Development",
+                        "points": [
+                            "Using TypeScript with React & Vue.js",
+                            "State Management with Redux & Context API",
+                            "Server-Side Rendering (SSR) with Next.js",
+                            "Building Type-Safe APIs with Express & NestJS",
+                            "GraphQL Integration with Apollo Client & Server"
+                        ]
+                    },
+                    {
+                        "title": "Performance Optimization & Best Practices",
+                        "points": [
+                            "Tree Shaking & Dead Code Elimination",
+                            "Optimizing TypeScript Compilation for Speed",
+                            "Code Splitting & Lazy Loading",
+                            "Effective Module Resolution & Aliases",
+                            "Avoiding Common TypeScript Pitfalls"
+                        ]
+                    },
+                    {
+                        "title": "Additional Skills",
+                        "points": [
+                            "Progressive Web Apps (PWA) with TypeScript",
+                            "Building Scalable Enterprise Applications",
+                            "Microservices & Serverless Development",
+                            "Type-Driven Development & Domain-Driven Design"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Backend",
+        "skills": [
+            {
+                "name": "Node.js",
+                "icon": "https://icon.icepanel.io/Technology/svg/Node.js.svg",
+                "color": "text-green-500",
+                "details": "Experience in building scalable backend systems using Node.js and Express.js.",
+                "longDescription": [
+                    {
+                        "title": "Core Node.js Skills",
+                        "points": [
+                            "JavaScript & TypeScript for Backend Development",
+                            "Non-blocking I/O & Event-Driven Architecture",
+                            "Asynchronous Programming with Promises & async/await",
+                            "Node.js Streams & Buffer Handling",
+                            "Error Handling & Logging Best Practices"
+                        ]
+                    },
+                    {
+                        "title": "Backend API Development",
+                        "points": [
+                            "Building RESTful APIs with Express.js",
+                            "GraphQL API Development with Apollo Server",
+                            "Middleware Implementation & Custom Middleware",
+                            "Authentication & Authorization (JWT, OAuth, Firebase Auth)",
+                            "Role-Based Access Control (RBAC)"
+                        ]
+                    },
+                    {
+                        "title": "Database & ORM Integration",
+                        "points": [
+                            "MongoDB & Mongoose ODM",
+                            "SQL Databases with Sequelize & Knex.js",
+                            "NoSQL Data Modeling & Index Optimization",
+                            "Database Transactions & ACID Compliance",
+                            "Caching Strategies using Redis & Memory Cache"
+                        ]
+                    },
+                    {
+                        "title": "Real-Time Communication & WebSockets",
+                        "points": [
+                            "WebSockets Implementation using Socket.io",
+                            "Event-Driven Architecture with Event Emitters",
+                            "Building Real-Time Chat & Notifications",
+                            "Handling Concurrent Connections Efficiently"
+                        ]
+                    },
+                    {
+                        "title": "Security & Performance Optimization",
+                        "points": [
+                            "Input Validation & Data Sanitization (Joi, Express-Validator)",
+                            "Rate Limiting & Throttling for API Security",
+                            "Secure API Development & Data Encryption",
+                            "Cross-Origin Resource Sharing (CORS) Implementation",
+                            "Optimizing Node.js Performance & Memory Usage"
+                        ]
+                    },
+                    {
+                        "title": "Testing & Debugging in Node.js",
+                        "points": [
+                            "Unit Testing with Jest & Mocha",
+                            "Integration Testing & API Mocking",
+                            "Error Handling & Debugging with VS Code",
+                            "Performance Monitoring & Profiling",
+                            "Logging & Error Tracking with Winston & Morgan"
+                        ]
+                    },
+                    {
+                        "title": "Scalability & Deployment",
+                        "points": [
+                            "Containerization with Docker for Node.js",
+                            "Process Management with PM2",
+                            "CI/CD Pipelines for Automated Deployment",
+                            "Load Balancing & Reverse Proxy with Nginx",
+                            "Serverless Architecture using AWS Lambda & Firebase Functions"
+                        ]
+                    },
+                    {
+                        "title": "Microservices & Distributed Systems",
+                        "points": [
+                            "Building Microservices with Node.js & Express",
+                            "Event-Driven Systems using Apache Kafka & RabbitMQ",
+                            "Service Discovery & API Gateway Implementation",
+                            "Distributed Caching with Redis & Memcached"
+                        ]
+                    },
+                    {
+                        "title": "Additional Skills",
+                        "points": [
+                            "File Upload & Streaming (Multer, Cloudinary, AWS S3)",
+                            "Building Multi-Tenant & SaaS Applications",
+                            "GraphQL Subscription & Real-Time APIs",
+                            "WebRTC for Live Streaming & Video Conferencing"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Express.js",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+                "color": "text-gray-500",
+                "details": "Expert in building scalable RESTful and GraphQL APIs using Express.js. Proficient in middleware, authentication, security, and real-time applications with WebSockets.",
+                "longDescription": [
+                    {
+                        "title": "Core Express.js Skills",
+                        "points": [
+                            "Building RESTful APIs with Express.js",
+                            "Setting up Middleware & Custom Middleware",
+                            "Error Handling & Logging",
+                            "Routing & Express Router",
+                            "Serving Static Files & Template Engines"
+                        ]
+                    },
+                    {
+                        "title": "Authentication & Security",
+                        "points": [
+                            "User Authentication with JWT & OAuth",
+                            "Role-Based Access Control (RBAC) & Permissions",
+                            "Input Validation & Data Sanitization (Joi, Express-Validator)",
+                            "Rate Limiting & Throttling for API Security",
+                            "CORS & CSRF Protection in Express Applications"
+                        ]
+                    },
+                    {
+                        "title": "Database Integration & ORM",
+                        "points": [
+                            "MongoDB & Mongoose ODM for NoSQL Databases",
+                            "PostgreSQL & MySQL with Sequelize & Knex.js",
+                            "Database Transactions & Query Optimization",
+                            "Using Redis for Caching & Performance Enhancement",
+                            "Handling File Uploads with Multer & Cloud Storage Integration"
+                        ]
+                    },
+                    {
+                        "title": "Real-Time Communication & WebSockets",
+                        "points": [
+                            "Integrating Socket.io for Real-Time Communication",
+                            "Building Chat Applications & Live Updates",
+                            "WebSockets vs Long Polling in Express Applications",
+                            "Broadcasting Events to Multiple Clients"
+                        ]
+                    },
+                    {
+                        "title": "Performance Optimization & Best Practices",
+                        "points": [
+                            "Optimizing Middleware Execution & Load Balancing",
+                            "Efficient Error Handling & Logging Mechanisms",
+                            "Minimizing API Response Time & Efficient Data Fetching",
+                            "Gzip Compression & Response Caching Strategies"
+                        ]
+                    },
+                    {
+                        "title": "Testing & Debugging in Express.js",
+                        "points": [
+                            "Unit Testing with Jest & Mocha",
+                            "API Testing with Supertest",
+                            "Mocking Dependencies for Integration Tests",
+                            "Debugging with Postman & VS Code Debugger",
+                            "Error Tracking with Winston & Morgan Logging"
+                        ]
+                    },
+                    {
+                        "title": "Deployment & Scalability",
+                        "points": [
+                            "Containerization with Docker for Express Applications",
+                            "Process Management with PM2 & Forever",
+                            "Load Balancing & Reverse Proxy with Nginx",
+                            "Deploying Express.js Apps on AWS, DigitalOcean, & Heroku",
+                            "Serverless Deployment with AWS Lambda & Firebase Functions"
+                        ]
+                    },
+                    {
+                        "title": "Microservices & Advanced Topics",
+                        "points": [
+                            "Building Microservices with Express.js & Docker",
+                            "API Gateway Implementation using Express.js",
+                            "Message Queues with Apache Kafka & RabbitMQ",
+                            "Distributed Caching with Redis & Memcached"
+                        ]
+                    },
+                    {
+                        "title": "Additional Skills",
+                        "points": [
+                            "GraphQL API Development with Apollo Server",
+                            "Integrating Payment Gateways (Stripe, PayPal, Razorpay)",
+                            "WebRTC for Video & Audio Streaming",
+                            "Building Scalable Multi-Tenant Applications with Express.js"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Firebase",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+                "color": "text-yellow-500",
+                "details": "Expertise in Firebase for real-time database management, authentication, push notifications, and cloud functions."
+            }
+        ]
+    },
+    {
+        "title": "Database",
+        "skills": [
+            {
+                "name": "Firebase",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+                "color": "text-yellow-500",
+                "details": "Expertise in Firebase for real-time database management, authentication, cloud functions, and push notifications.",
+                "longDescription": [
+                    {
+                        "title": "Core Firebase Features",
+                        "points": [
+                            "Realtime Database & Firestore",
+                            "Firebase Authentication (Google, Facebook, Apple, OTP)",
+                            "Cloud Functions & Serverless Computing",
+                            "Firebase Hosting & Storage",
+                            "Push Notifications with Firebase Cloud Messaging (FCM)",
+                            "Security Rules & Access Management"
+                        ]
+                    },
+                    {
+                        "title": "Optimization & Best Practices",
+                        "points": [
+                            "Indexing & Query Optimization",
+                            "Offline Persistence & Caching",
+                            "Database Structuring for Scalability",
+                            "Performance Monitoring & Analytics Integration"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "MongoDB",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+                "color": "text-green-500",
+                "details": "Proficient in MongoDB for NoSQL database design, schema modeling, high-performance queries, and real-time data handling.",
+                "longDescription": [
+                    {
+                        "title": "Core MongoDB Features",
+                        "points": [
+                            "NoSQL Database Architecture & Document-Oriented Storage",
+                            "CRUD Operations with MongoDB & Mongoose",
+                            "Aggregation Framework for Data Processing",
+                            "Indexing & Query Optimization",
+                            "Transactions & ACID Compliance"
+                        ]
+                    },
+                    {
+                        "title": "Scalability & Performance Optimization",
+                        "points": [
+                            "Sharding & Replication for High Availability",
+                            "Data Caching Strategies with Redis",
+                            "MongoDB Atlas & Cloud Deployments",
+                            "Backup & Disaster Recovery Best Practices"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "AI & ML",
+        "skills": [
+            {
+                "name": "TensorFlow",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+                "color": "text-orange-500",
+                "details": "Experienced in developing and deploying deep learning models using TensorFlow. Skilled in building neural networks, optimizing model performance, and deploying AI applications at scale.",
+                "longDescription": [
+                    {
+                        "title": "Core TensorFlow Skills",
+                        "points": [
+                            "TensorFlow & Keras Frameworks",
+                            "Building Neural Networks from Scratch",
+                            "TensorFlow Model Training & Evaluation",
+                            "Data Preprocessing & Feature Engineering",
+                            "Transfer Learning & Pretrained Models",
+                            "Model Deployment with TensorFlow Serving",
+                            "Hyperparameter Tuning & Optimization"
+                        ]
+                    },
+                    {
+                        "title": "Deep Learning & Neural Networks",
+                        "points": [
+                            "Convolutional Neural Networks (CNNs)",
+                            "Recurrent Neural Networks (RNNs, LSTMs, GRUs)",
+                            "Transformers & Attention Mechanisms",
+                            "Autoencoders & Dimensionality Reduction",
+                            "GANs (Generative Adversarial Networks)",
+                            "Reinforcement Learning with TensorFlow",
+                            "Multi-Modal Learning & Fusion Models"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Python",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+                "color": "text-yellow-300",
+                "details": "Proficient in Python for AI, ML, and backend scripting. Expertise in libraries such as NumPy, Pandas, Scikit-Learn, and Matplotlib for data analysis and machine learning.",
+                "longDescription": [
+                    {
+                        "title": "Core Python Skills for AI/ML",
+                        "points": [
+                            "Python for Data Science & Machine Learning",
+                            "Data Manipulation with NumPy & Pandas",
+                            "Data Visualization with Matplotlib & Seaborn",
+                            "Machine Learning with Scikit-Learn",
+                            "Natural Language Processing (NLP) with SpaCy & NLTK",
+                            "Deep Learning with TensorFlow & PyTorch",
+                            "Working with Jupyter Notebooks & Google Colab"
+                        ]
+                    },
+                    {
+                        "title": "Big Data & Cloud AI Integration",
+                        "points": [
+                            "Distributed Computing with Dask & PySpark",
+                            "Google Cloud AI & TensorFlow on AWS",
+                            "Kubernetes & Docker for Model Deployment",
+                            "Automated ML Pipelines with Kubeflow & TFX"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "OpenAI",
+                "icon": "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/openai.svg",
+                "color": "text-white",
+                "details": "Skilled in integrating OpenAI's GPT models for AI-powered features in applications, including text generation, embeddings, and multimodal AI capabilities.",
+                "longDescription": [
+                    {
+                        "title": "Core OpenAI Skills",
+                        "points": [
+                            "GPT-4 & GPT-3.5 Integration",
+                            "Fine-Tuning OpenAI Models",
+                            "AI-Powered Chatbots & Virtual Assistants",
+                            "Text Generation & Summarization",
+                            "Semantic Search & Embeddings",
+                            "AI-Generated Image & Video Processing",
+                            "Real-Time AI & Voice Assistants"
+                        ]
+                    },
+                    {
+                        "title": "Application of OpenAI Models",
+                        "points": [
+                            "AI Content Creation & Marketing Automation",
+                            "Automated Code Generation & Debugging",
+                            "Financial Forecasting & Predictive Analytics",
+                            "AI for Healthcare & Medical Diagnosis",
+                            "AI-Powered Customer Support & Automation"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "DevOps & Cloud",
+        "skills": [
+            {
+                "name": "Docker",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+                "color": "text-blue-500",
+                "details": "Experienced in containerization and orchestration using Docker for scalable application deployment. Skilled in optimizing Docker workflows, securing containers, and integrating Docker with CI/CD pipelines.",
+                "longDescription": [
+                    {
+                        "title": "Core Docker Skills",
+                        "points": [
+                            "Containerization & Image Management",
+                            "Dockerfile Best Practices & Multi-Stage Builds",
+                            "Docker Compose for Multi-Container Applications",
+                            "Container Networking & Volume Management",
+                            "Security & Image Hardening Best Practices",
+                            "Logging & Monitoring in Docker Environments"
+                        ]
+                    },
+                    {
+                        "title": "CI/CD & Deployment",
+                        "points": [
+                            "Deploying Docker Containers on AWS, GCP, Azure",
+                            "Integrating Docker with Jenkins, GitHub Actions, and GitLab CI/CD",
+                            "Docker with Kubernetes for Orchestration",
+                            "Service Mesh & API Gateway Integration",
+                            "Infrastructure as Code (IaC) with Terraform & Docker"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Kubernetes",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg",
+                "color": "text-blue-400",
+                "details": "Proficient in deploying and managing containerized applications using Kubernetes. Skilled in cluster management, security, and optimizing workloads for cloud-native environments.",
+                "longDescription": [
+                    {
+                        "title": "Core Kubernetes (K8s) Skills",
+                        "points": [
+                            "Kubernetes Architecture & Components",
+                            "Pod, Deployment, and StatefulSet Management",
+                            "Kubernetes Services, Ingress, and Networking",
+                            "ConfigMaps & Secrets Management",
+                            "Persistent Storage & Volume Management",
+                            "RBAC (Role-Based Access Control) in Kubernetes"
+                        ]
+                    },
+                    {
+                        "title": "Advanced Kubernetes Topics",
+                        "points": [
+                            "Helm Charts for Kubernetes Deployment",
+                            "Kubernetes Security & Policy Enforcement",
+                            "GitOps Workflow with Kubernetes (ArgoCD, FluxCD)",
+                            "Serverless Deployments in Kubernetes (Knative, OpenFaaS)",
+                            "Observability & Monitoring (Prometheus, Grafana, ELK Stack)"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "AWS",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg",
+                "color": "text-orange-500",
+                "details": "Experienced in deploying and managing cloud applications using AWS services. Proficient in EC2, S3, Lambda, DynamoDB, and networking.",
+                "longDescription": [
+                    {
+                        "title": "Core AWS Skills",
+                        "points": [
+                            "AWS EC2, S3, Lambda, and DynamoDB",
+                            "Networking with VPC, Route 53, and Load Balancing",
+                            "AWS IAM for Role-Based Access Control",
+                            "AWS RDS & NoSQL Databases",
+                            "Serverless Architecture & API Gateway",
+                            "Security & Compliance in AWS"
+                        ]
+                    },
+                    {
+                        "title": "CI/CD & Infrastructure Management",
+                        "points": [
+                            "Automating Deployments with AWS CodePipeline & CodeBuild",
+                            "Infrastructure as Code (IaC) with AWS CloudFormation & Terraform",
+                            "Monitoring & Logging with AWS CloudWatch",
+                            "Scaling Strategies with Auto Scaling Groups & Load Balancers"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Google Cloud Platform (GCP)",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg",
+                "color": "text-blue-500",
+                "details": "Proficient in deploying, managing, and scaling applications using Google Cloud services. Experience with Compute Engine, Cloud Run, and Kubernetes Engine (GKE).",
+                "longDescription": [
+                    {
+                        "title": "Core GCP Skills",
+                        "points": [
+                            "Compute Engine, Cloud Functions, and Cloud Run",
+                            "Google Kubernetes Engine (GKE) for Container Orchestration",
+                            "Cloud Storage & Firestore for Scalable Data Handling",
+                            "Networking with Cloud Load Balancing & VPC",
+                            "Security & Identity Management with IAM"
+                        ]
+                    },
+                    {
+                        "title": "DevOps & Monitoring in GCP",
+                        "points": [
+                            "Infrastructure as Code with Terraform on GCP",
+                            "Continuous Deployment with Cloud Build & Cloud Deploy",
+                            "Logging & Monitoring with Stackdriver",
+                            "Scaling Applications with Managed Instance Groups"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "GitHub Actions",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+                "color": "text-black-500",
+                "details": "Experienced in setting up CI/CD pipelines using GitHub Actions to automate testing, deployment, and infrastructure management.",
+                "longDescription": [
+                    {
+                        "title": "Core GitHub Actions Skills",
+                        "points": [
+                            "Creating & Managing Workflows",
+                            "Automating Builds & Tests",
+                            "Deploying Applications with GitHub Actions",
+                            "Integration with AWS, GCP, and Kubernetes",
+                            "Security Best Practices in GitHub Actions"
+                        ]
+                    },
+                    {
+                        "title": "Advanced GitHub Actions",
+                        "points": [
+                            "Reusable Workflows & Composite Actions",
+                            "Managing Secrets & Environment Variables",
+                            "Parallel & Matrix Builds",
+                            "Self-Hosted Runners for Custom Environments",
+                            "Monitoring & Debugging CI/CD Pipelines"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "UI/UX Design",
+        "skills": [
+            {
+                "name": "Figma",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+                "color": "text-purple-400",
+                "details": "Experience in designing user-friendly interfaces using Figma, focusing on high-fidelity prototypes, design systems, and collaboration.",
+                "longDescription": [
+                    {
+                        "title": "Core Figma Skills",
+                        "points": [
+                            "Figma Interface & Workspace Navigation",
+                            "Creating & Managing Frames & Artboards",
+                            "Designing Responsive UI Components",
+                            "Auto Layout for Scalable Designs",
+                            "Figma Styles & Design Tokens",
+                            "Component Variants & Interactive Components",
+                            "Prototyping & Clickable Mockups",
+                            "Smart Animate & Advanced Prototyping",
+                            "Collaboration & Developer Handoff",
+                            "Exporting Assets & Design Specifications"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Adobe XD",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-original.svg",
+                "color": "text-pink-500",
+                "details": "Proficient in Adobe XD for designing interactive UI/UX prototypes with advanced animations and design systems.",
+                "longDescription": [
+                    {
+                        "title": "Core Adobe XD Skills",
+                        "points": [
+                            "Adobe XD Interface & Workspace Navigation",
+                            "High-Fidelity UI/UX Design",
+                            "Wireframing & User Flow Mapping",
+                            "Interactive Prototyping & Animations",
+                            "Auto-Animate & Microinteractions",
+                            "Component Libraries & Design Systems",
+                            "Collaboration & Developer Handoff",
+                            "Exporting Assets & Design Specifications",
+                            "Responsive & Adaptive Layout Design"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Version Control",
+        "skills": [
+            {
+                "name": "Git",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+                "color": "text-red-500",
+                "details": "Expertise in Git for version control, branching strategies, and collaborative development workflows.",
+                "longDescription": [
+                    {
+                        "title": "Core Git Skills",
+                        "points": [
+                            "Initializing & Managing Repositories",
+                            "Branching & Merging Strategies",
+                            "Rebasing, Cherry-Picking, and Stashing",
+                            "Resolving Merge Conflicts",
+                            "Git Hooks & Automation"
+                        ]
+                    },
+                    {
+                        "title": "Collaboration & Workflow Management",
+                        "points": [
+                            "Working with Remote Repositories",
+                            "Pull Requests & Code Reviews",
+                            "GitFlow & Trunk-Based Development",
+                            "Submodules & Monorepo Management",
+                            "Integrating Git with CI/CD Pipelines"
+                        ]
+                    },
+                    {
+                        "title": "Security & Performance Optimization",
+                        "points": [
+                            "Signed Commits & GPG Key Authentication",
+                            "Managing Large Repositories & Git LFS",
+                            "Handling Sensitive Data with Git Secrets",
+                            "Optimizing Git History & Cleanup Techniques"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "GitHub",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+                "color": "text-black-500",
+                "details": "Proficient in GitHub for repository hosting, collaboration, issue tracking, and CI/CD integration.",
+                "longDescription": [
+                    {
+                        "title": "Core GitHub Skills",
+                        "points": [
+                            "Managing Public & Private Repositories",
+                            "GitHub Actions for CI/CD",
+                            "Managing Issues & Project Boards",
+                            "Code Review & Collaboration Features",
+                            "Security Scanning & Dependabot Alerts"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "GitLab",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg",
+                "color": "text-orange-500",
+                "details": "Expertise in GitLab for self-hosted repositories, DevOps automation, and security compliance.",
+                "longDescription": [
+                    {
+                        "title": "Core GitLab Skills",
+                        "points": [
+                            "Managing GitLab Repositories & Permissions",
+                            "GitLab CI/CD Pipeline Automation",
+                            "Integrated Issue Tracking & Merge Requests",
+                            "Security & Compliance with GitLab Ultimate",
+                            "Container Registry & Kubernetes Integration"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Event-Driven Architecture & Messaging Systems",
+        "skills": [
+            {
+                "name": "Apache Kafka",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg",
+                "color": "text-white",
+                "details": "Expertise in Apache Kafka for building real-time data streaming and event-driven architectures. Experience in configuring, managing, and optimizing Kafka clusters.",
+                "longDescription": [
+                    {
+                        "title": "Core Kafka Skills",
+                        "points": [
+                            "Kafka Architecture & Components (Producers, Consumers, Brokers, Topics, Partitions)",
+                            "Setting up & Managing Kafka Clusters",
+                            "Kafka Streams & Real-Time Processing",
+                            "Kafka Connect for Data Integration",
+                            "Schema Registry & Avro for Data Serialization",
+                            "Monitoring & Debugging Kafka Applications",
+                            "Kafka Security & Access Control (SSL, SASL, ACLs)"
+                        ]
+                    },
+                    {
+                        "title": "Advanced Kafka Features",
+                        "points": [
+                            "Event Sourcing & CQRS with Kafka",
+                            "Kafka in Microservices Architecture",
+                            "Kafka with Kubernetes & Docker",
+                            "High Availability & Fault Tolerance in Kafka",
+                            "Performance Optimization & Tuning Kafka Brokers"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "NATS Streaming Server",
+                "icon": "https://nats.io/img/nats-icon-color.svg",
+                "color": "text-blue-500",
+                "details": "Proficient in NATS Streaming Server for lightweight, high-performance message brokering in microservices and distributed systems.",
+                "longDescription": [
+                    {
+                        "title": "Core NATS Streaming Skills",
+                        "points": [
+                            "NATS Core Architecture (Publish-Subscribe, Queue Groups, Streams)",
+                            "Setting up & Managing NATS Servers",
+                            "Message Retention & Durable Subscriptions",
+                            "High-Performance Event Streaming & Low Latency Messaging",
+                            "NATS Integration with Microservices",
+                            "Security & Authentication in NATS"
+                        ]
+                    },
+                    {
+                        "title": "Advanced NATS Features",
+                        "points": [
+                            "Clustered & Scalable NATS Deployments",
+                            "Event-Driven Microservices with NATS",
+                            "Using NATS JetStream for Advanced Messaging",
+                            "Monitoring & Debugging NATS Workloads"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Software Architecture & Project Structures",
+        "skills": [
+            {
+                "name": "Microservices Architecture",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+                "color": "text-blue-500",
+                "details": "Expertise in designing scalable, resilient microservices using containerized environments and service-oriented principles.",
+                "longDescription": [
+                    {
+                        "title": "Core Microservices Concepts",
+                        "points": [
+                            "Service-Oriented Architecture (SOA) vs. Microservices",
+                            "API Gateway & Service Mesh Implementation",
+                            "Decentralized Data Management & Event Sourcing",
+                            "Asynchronous Communication with Message Brokers",
+                            "Resilience & Fault Tolerance in Microservices",
+                            "Monitoring & Observability in Distributed Systems"
+                        ]
+                    },
+                    {
+                        "title": "Microservices Deployment & Scaling",
+                        "points": [
+                            "Containerization with Docker & Kubernetes",
+                            "CI/CD Pipelines for Microservices Deployment",
+                            "Serverless Microservices with AWS Lambda, GCP Cloud Functions",
+                            "Scaling Strategies & Load Balancing",
+                            "Service Discovery & Distributed Tracing"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Monolithic Architecture",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+                "color": "text-red-500",
+                "details": "Proficient in designing and maintaining monolithic applications with a well-structured project layout and modular design patterns.",
+                "longDescription": [
+                    {
+                        "title": "Core Monolithic Architecture Concepts",
+                        "points": [
+                            "Advantages & Challenges of Monolithic Systems",
+                            "Layered Architecture (Presentation, Business, Data Layers)",
+                            "Scalability & Performance Optimization",
+                            "Refactoring Monoliths into Modular Services",
+                            "Database Design & ORM Implementation",
+                            "CI/CD Pipelines for Monolithic Deployment"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Hybrid Architecture (Modular Monolith + Microservices)",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg",
+                "color": "text-blue-400",
+                "details": "Expertise in hybrid architectural patterns, combining modular monolith and microservices for scalability and maintainability.",
+                "longDescription": [
+                    {
+                        "title": "Core Hybrid Architecture Concepts",
+                        "points": [
+                            "When to Use Modular Monolith vs. Microservices",
+                            "Breaking Down Monolithic Systems into Modules",
+                            "Gradual Migration from Monolith to Microservices",
+                            "Ensuring Data Consistency & Eventual Consistency",
+                            "Best Practices for Hybrid Deployments",
+                            "Optimizing for Developer Productivity & Scalability"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Mobile App Deployment",
+        "skills": [
+            {
+                "name": "App Store Deployment (iOS)",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg",
+                "color": "text-black",
+                "details": "Expertise in publishing iOS applications on the App Store, ensuring compliance with platform policies and optimizing app discoverability.",
+                "longDescription": [
+                    {
+                        "title": "Core App Store Deployment Skills",
+                        "points": [
+                            "Creating & Managing App Store Connect Accounts",
+                            "Generating & Uploading Certificates & Provisioning Profiles",
+                            "Submitting Apps for Review & Handling Rejections",
+                            "Implementing In-App Purchases & Subscriptions",
+                            "Optimizing App Store Metadata (Keywords, Screenshots, Videos)",
+                            "Managing App Ratings, Reviews & User Feedback"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Google Play Store Deployment (Android)",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg",
+                "color": "text-green-500",
+                "details": "Expertise in publishing Android applications on the Google Play Store, ensuring compliance with platform policies and optimizing app performance.",
+                "longDescription": [
+                    {
+                        "title": "Core Google Play Store Deployment Skills",
+                        "points": [
+                            "Creating & Managing Google Play Developer Accounts",
+                            "Generating & Uploading Signed APKs & AABs",
+                            "Handling App Reviews & Policy Compliance",
+                            "Configuring App Pricing & Monetization Strategies",
+                            "Setting Up Firebase App Distribution & Internal Testing",
+                            "Tracking & Improving App Performance via Play Console Insights"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "R&D Solutioning",
+        "skills": [
+            {
+                "name": "Research & Development",
+                "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg",
+                "color": "text-blue-500",
+                "details": "Expertise in emerging technology evaluation, prototyping, and scalable solution architecture.",
+                "longDescription": [
+                    {
+                        "title": "Core R&D Skills",
+                        "points": [
+                            "Identifying & Evaluating Emerging Technologies",
+                            "Prototyping & Proof of Concept (PoC) Development",
+                            "Technical Feasibility Analysis",
+                            "Innovation & Product Strategy Development",
+                            "Agile R&D Methodologies",
+                            "Cross-Disciplinary Research & Collaboration"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

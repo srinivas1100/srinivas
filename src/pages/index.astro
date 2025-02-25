@@ -1,0 +1,66 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import About from '../components/About.astro';
+import Skills from '../components/Skills.astro';
+import Expertise from '../components/Expertise.astro';
+import Projects from '../components/Projects.astro';
+import Experience from '../components/Experience.astro';
+import Contact from '../components/Contact.astro';
+import Copywrite from '../components/Copywrite.astro';
+---
+
+<Layout title="Srinivas Vadlamudi - Portfolio">
+  <Header />
+  <main class="bg-gray-900 text-white">
+    <Hero />
+    <About />
+    <Expertise />
+    <Skills />
+    <Projects />
+    <Experience />
+    <Contact />
+    <Copywrite />
+  </main>
+</Layout>
+
+<script>
+  import gsap from 'gsap';
+  import ScrollTrigger from 'gsap/ScrollTrigger';
+
+  // Wait for the page to load
+  window.addEventListener('load', () => {
+    gsap.registerPlugin(ScrollTrigger);
+    
+    // Animate tech stack items
+    gsap.utils.toArray('.tech-item').forEach((item, i) => {
+      gsap.from(item, {
+        scrollTrigger: {
+          trigger: item,
+          start: "top bottom-=100",
+          toggleActions: "play none none reverse"
+        },
+        y: 50,
+        opacity: 0,
+        duration: 0.6,
+        delay: i * 0.1
+      });
+    });
+
+    // Animate contact items
+    gsap.utils.toArray('.contact-item').forEach((item, i) => {
+      gsap.to(item, {
+        scrollTrigger: {
+          trigger: item,
+          start: "top bottom-=100",
+          toggleActions: "play none none reverse"
+        },
+        opacity: 1,
+        x: 0,
+        duration: 1,
+        delay: i * 0.2
+      });
+    });
+  });
+</script>

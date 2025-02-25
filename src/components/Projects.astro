@@ -1,0 +1,150 @@
+---
+import projects from "../data/projects.json";
+---
+
+<section id="projects" class="relative py-20 px-6 bg-[#0a192f]">
+  <div
+    class="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(59,130,246,0.05),transparent_70%)]"
+  >
+  </div>
+
+  <div class="container mx-auto max-w-6xl relative z-10">
+    <div class="flex flex-col items-center mb-16" data-aos="fade-up">
+      <div
+        class="px-8 py-4 rounded-xl bg-gray-800/50 border-2 border-[#3B82F6]/50 text-[#3B82F6] text-4xl font-extrabold tracking-wide shadow-lg backdrop-blur-sm"
+      >
+        PROJECTS
+      </div>
+      <div class="h-16 w-px bg-[#3B82F6]/50"></div>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {
+        projects.map((project) => (
+
+
+          <div
+            class="project-card bg-gray-900 rounded-lg overflow-hidden border border-gray-700 hover:border-blue-500 transition-all duration-300 cursor-pointer"
+            data-aos="fade-up"
+          >
+            <img
+              src={project.image}
+              alt={project.title}
+              class="project-image"
+            />
+            <div class="p-6">
+              
+              <h3 class="text-xl font-bold mb-3 bg-gradient-to-r from-blue-400 to-purple-400 text-transparent bg-clip-text">
+                {project.title}
+              </h3>
+              <p class="text-gray-400 text-sm mb-4 line-clamp-3 text-justify">
+                {project.description}
+              </p>
+              <div class="flex flex-wrap gap-2 mb-4">
+                {project.technologies.map((tech) => (
+                  <span class="px-3 py-1 text-xs rounded-full bg-gray-800 text-blue-400 border border-blue-500/30">
+                    {tech}
+                  </span>
+                ))}
+              </div>
+              <div class="flex flex-wrap gap-4">
+                {project.links.website && (
+                  <a
+                    href={project.links.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center gap-2 text-sm text-blue-400 hover:text-blue-300 transition-colors"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <circle cx="12" cy="12" r="10" />
+                      <line x1="2" y1="12" x2="22" y2="12" />
+                      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                    </svg>
+                    Website
+                  </a>
+                )}
+                {project.links.appStore && (
+                  <a
+                    href={project.links.appStore}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center gap-2 text-sm text-blue-400 hover:text-blue-300 transition-colors"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M18.71 19.5C17.88 20.74 17 21.95 15.66 21.97C14.32 22 13.89 21.18 12.37 21.18C10.84 21.18 10.37 21.95 9.09997 22C7.78997 22.05 6.79997 20.68 5.95997 19.47C4.24997 17 2.93997 12.45 4.69997 9.39C5.56997 7.87 7.12997 6.91 8.81997 6.88C10.1 6.86 11.32 7.75 12.11 7.75C12.89 7.75 14.37 6.68 15.92 6.84C16.57 6.87 18.39 7.1 19.56 8.82C19.47 8.88 17.39 10.1 17.41 12.63C17.44 15.65 20.06 16.66 20.09 16.67C20.06 16.74 19.67 18.11 18.71 19.5ZM13 3.5C13.73 2.67 14.94 2.04 15.94 2C16.07 3.17 15.6 4.35 14.9 5.19C14.21 6.04 13.07 6.7 11.95 6.61C11.8 5.46 12.36 4.26 13 3.5Z" />
+                    </svg>
+                    App Store
+                  </a>
+                )}
+                {project.links.playStore && (
+                  <a
+                    href={project.links.playStore}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center gap-2 text-sm text-blue-400 hover:text-blue-300 transition-colors"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <polygon points="3 3 21 12 3 21" />
+                    </svg>
+                    Play Store
+                  </a>
+                )}
+              </div>
+            </div>
+          </div>
+
+        
+        ))
+      }
+    </div>
+  </div>
+</section>
+
+<style>
+  .project-card {
+    transition: all 0.3s ease;
+  }
+
+  .project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  }
+
+  .project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+</style>
